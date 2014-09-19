@@ -1,0 +1,787 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PLL",
+				"PLLPOST"
+			],
+			[
+				"ADC",
+				"ADC_BITS"
+			],
+			[
+				"uint",
+				"uint16_t"
+			],
+			[
+				"sample",
+				"sample_length"
+			],
+			[
+				"sc",
+				"scaledProbAdc"
+			],
+			[
+				"comp",
+				"compareProb"
+			],
+			[
+				"sca",
+				"scaledDivAdc"
+			],
+			[
+				"check",
+				"checkButtons"
+			],
+			[
+				"pro",
+				"probWait"
+			],
+			[
+				"GATE",
+				"GATE_PROB_TOGGLE"
+			],
+			[
+				"EE",
+				"EEPROM_WRITE_FLAG"
+			],
+			[
+				"flag",
+				"flagReg"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"de",
+				"deJitter"
+			],
+			[
+				"clk",
+				"clkCurrTime"
+			],
+			[
+				"curr",
+				"clkCurrTime"
+			],
+			[
+				"scaled",
+				"scaledProbAdc"
+			],
+			[
+				"write",
+				"writeDisplay"
+			],
+			[
+				"MCP",
+				"MCP23S17"
+			],
+			[
+				"GP",
+				"GPIO"
+			],
+			[
+				"GPIO",
+				"GPIOA"
+			],
+			[
+				"IOD",
+				"IODIRA"
+			],
+			[
+				"sto",
+				"Store8"
+			],
+			[
+				"read",
+				"read"
+			],
+			[
+				"to",
+				"probLengthToggle"
+			],
+			[
+				"ee",
+				"eepromWriteFlag"
+			],
+			[
+				"eepro",
+				"eepromWriteFlag"
+			],
+			[
+				"dcl",
+				"dClickDetected"
+			],
+			[
+				"pre",
+				"prevButtonState"
+			],
+			[
+				"cur",
+				"currButtonState"
+			],
+			[
+				"but",
+				"buttons"
+			],
+			[
+				"cu",
+				"currButtonState"
+			],
+			[
+				"clock",
+				"clockAdc"
+			],
+			[
+				"trig",
+				"trigTime"
+			],
+			[
+				"master",
+				"masterClockOutState"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"ch",
+				"check_button"
+			],
+			[
+				"B00",
+				"B00001111"
+			],
+			[
+				"eepr",
+				"eepromWrite"
+			],
+			[
+				"dck",
+				"dClickInt2"
+			],
+			[
+				"button",
+				"button"
+			],
+			[
+				"ep",
+				"eepromReadFlag"
+			],
+			[
+				"OUTP",
+				"OUT_PORT"
+			],
+			[
+				"raw",
+				"rawProbAdc"
+			],
+			[
+				"com",
+				"compWait"
+			],
+			[
+				"temp",
+				"tempComp"
+			],
+			[
+				"te",
+				"tempDiv"
+			],
+			[
+				"pi",
+				"pinMode"
+			],
+			[
+				"clo",
+				"clockAdc"
+			],
+			[
+				"rand",
+				"randComp"
+			],
+			[
+				"set",
+				"setCursor"
+			],
+			[
+				"lc",
+				"lcd_print"
+			],
+			[
+				"lcd",
+				"lcd_key"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dac.c",
+			"settings":
+			{
+				"buffer_size": 612,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dac.h",
+			"settings":
+			{
+				"buffer_size": 134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "timers.c",
+			"settings":
+			{
+				"buffer_size": 1667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "timers.h",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.h",
+			"settings":
+			{
+				"buffer_size": 498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.c",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.h",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kloo/programming/pic/dspicSmplr.X/sample.h",
+		"/home/kloo/programming/pic/dspicSmplr.X/adc.c",
+		"/home/kloo/programming/pic/dspicSmplr.X/adc.h",
+		"/home/kloo/programming/pic/dspicSmplr.X/config.c",
+		"/home/kloo/programming/pic/dspicSmplr.X/main.c",
+		"/home/kloo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/kloo/programming/web/meanTest/package.json",
+		"/home/kloo/programming/arduino/expandertest/lib/MCP23S17.cpp",
+		"/home/kloo/programming/arduino/expandertest/lib/MCP23S17.h",
+		"/home/kloo/programming/arduino/triggerRiot/src/trigger_riot.ino",
+		"/home/kloo/programming/arduino/expandertest/src/sketch.ino",
+		"/home/kloo/programming/c/testSheet.c",
+		"/home/kloo/programming/arduino/lcd_fsm/src/sketch.ino",
+		"/home/kloo/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/kloo/.config/sublime-text-3/Packages/User/C.sublime-settings",
+		"/home/kloo/programming/arduino/lcd_fsm/src/sketch.c",
+		"/home/kloo/programming/arduino/lcd_fsm/src/main.ino"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clock",
+			"clock ",
+			"	}",
+			"flagreg",
+			"expander",
+			"temp",
+			"1000",
+			"writeDisplay",
+			"writeDis",
+			"setup",
+			"divtable",
+			"DIVTABLE	",
+			"buttons.curr",
+			"NUM_DIVS",
+			"0xFFFF",
+			"Spi",
+			");",
+			"port",
+			"send",
+			"button",
+			"master",
+			"comment",
+			"eepromreadflag",
+			"dbTi",
+			"button",
+			"SW1_PRESSED",
+			"SW1",
+			"tempComp",
+			"freezeDiv",
+			"tempDiv",
+			"randComp",
+			"compWait",
+			"scaledDivAdc",
+			"PINB",
+			"PORTD",
+			"scaledProbAdc",
+			"rawDivAdc",
+			"rawProbAdc",
+			"rawDivAdc",
+			"compAdc",
+			"divAdc",
+			"compAdc",
+			"vAdc;\n		",
+			"divAdc",
+			";\n",
+			"trigTime"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mstrClk",
+			"SPI"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 354.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dac.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dac.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "timers.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "timers.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "functions.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "functions.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "dspicSmplr.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ca",
+				"~/programming/scripts/python/dspicCalc.sublime-project"
+			],
+			[
+				"",
+				"~/programming/scripts/python/dspicCalc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
