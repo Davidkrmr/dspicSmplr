@@ -3,8 +3,7 @@
 
 #define REVERSE 1
 #define FORWARD 0
-#define TMR3_SAMP_PRD 576
-#define TMR1_SAMP_PRD 144
+
 
 void initTimer1(void);
 void initTimer3(void);

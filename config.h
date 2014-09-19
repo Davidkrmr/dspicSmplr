@@ -4,6 +4,9 @@
 #define LED_PIN	0
 #define FLASH_RATE 1000
 
+#define TMR3_SAMP_PRD 576
+#define TMR1_SAMP_PRD 144
+
 #define ADC_BITS 10
 #define ADC_MAX ((1<<ADC_BITS)-1)
 

@@ -24,6 +24,6 @@ extern uint8_t sample_buf[];
 
 void __attribute__((interrupt, no_auto_psv))_DAC1RInterrupt(void)
 {
-    DAC1RDAT = sample_buf[sample]<<4;
+    DAC1RDAT = sample_buf[sample]<<6;
     IFS4bits.DAC1RIF = 0;
 }

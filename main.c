@@ -25,14 +25,14 @@ int main (void)
     initTimer1();
     initTimer3();
     initAdc();
+    initDma0();
     initDac();
 
     uint32_t tmr;
-    extern uint16_t dma_buf[8] __attribute__((space(dma)));
-    extern uint8_t dmaFlag;
-
+    
     TRISA = 0x0000;
     LATA = 0x0000;
+    LATA |= (1<<1);
 
     tmr = millis();
 
@@ -41,11 +41,6 @@ int main (void)
         if((millis() - tmr) > FLASH_RATE) {
             LATA ^= (1<<LED_PIN);
             tmr = millis();
-        }
-
-        if(dmaFlag) {
-            adc_to_sample_rate(dma_buf);
-            dmaFlag = 0;
         }
     }
     return 0;
