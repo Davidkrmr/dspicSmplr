@@ -1,15 +1,6 @@
 #ifndef CONFIG_H
 #define	CONFIG_H
 
-#define LED_PIN	0
-#define FLASH_RATE 1000
-
-#define TMR3_SAMP_PRD 576
-#define TMR1_SAMP_PRD 144
-
-#define ADC_BITS 10
-#define ADC_MAX ((1<<ADC_BITS)-1)
-
 #define FRC 7372800
 #define N1 2
 #define N2 2
@@ -18,7 +9,8 @@
 #define FCY (FOSC / 2)
 #define FVCO ((FRC * M)/N1)
 
-#define SAMPLE_RATE 8000
+#define LED_PIN	0
+#define FLASH_RATE 1000
 
 #endif	/* CONFIG_H */
 

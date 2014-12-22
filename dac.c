@@ -2,8 +2,7 @@
 #include <stdint.h>
 #include "dac.h"
 
-
-void initDac()
+void init_dac()
 {
     ACLKCONbits.SELACLK  = 0;  // FRC w/ Pll as Clock Source
     ACLKCONbits.APSTSCLR = 7;  // Fvco/1
@@ -19,11 +18,10 @@ void initDac()
     DAC1CONbits.DACEN = 1;
 }
 
-extern volatile int32_t sample;
-extern uint8_t sample_buf[];
-
+volatile uint16_t dac_out = 0;
+ 
 void __attribute__((interrupt, no_auto_psv))_DAC1RInterrupt(void)
 {
-    DAC1RDAT = sample_buf[sample]<<6;
+    DAC1RDAT = dac_out;
     IFS4bits.DAC1RIF = 0;
 }

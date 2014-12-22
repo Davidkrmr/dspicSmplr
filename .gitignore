@@ -20,4 +20,4 @@ funclist
 nbproject/Makefile-*
 disassembly/
 *.map
-*.sublime*
+*.sublime**sublime-*
