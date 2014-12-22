@@ -8,7 +8,8 @@
 *.sdb
 *.obj.dmp
 html/
-*nbproject*
+nbproject/private/
+nbproject/Package-*.bash
 build/
 nbbuild/
 dist/
@@ -19,4 +20,4 @@ funclist
 nbproject/Makefile-*
 disassembly/
 *.map
-*sublime-*
+*.sublime**sublime-*
